@@ -37,10 +37,31 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p><i>{{ page.venue }}</i></p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}    
+        {% endif %}
+        
+        {% if page.excerpt and site.read_more != 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">{{ page.excerpt | markdownify }}</p>
+        {% elsif page.excerpt and site.read_more == 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description"><p>{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ page.url }}" rel="permalink"> Read more</a></strong></p></p>
+        {% endif %}
+
+        {% if page.citation and page.paperurl and page.slidesurl %}
+          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.citation and page.paperurl %}
+          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">paper</a></p>
+        {% elsif page.citation and page.slidesurl %}
+          <p>Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif page.citation %}
+          <p>Recommended citation: {{ page.citation }}</p>
+        {% elsif page.paperurl %}
+          <p>[<a href=" {{ page.paperurl }} ">paper</a>]</p>
+        {% elsif page.slidesurl %}
+          <p>Download <a href="{{ page.slidesurl }}">Download Slides</a></p></p>
+        {% endif %}
+
         </header>
       {% endunless %}
 
