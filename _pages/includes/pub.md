@@ -9,4 +9,4 @@ ACM Transactions on Graphics (SIGGRAPH 2024)
 
 **Ningxiao Tao**, Liangwang Ruan, Yitong Deng, Bo Zhu, Bin Wang\*, Baoquan Chen\*
 
-\[[paper](http://taoningxiao.github.io/files/VortexBubble.pdf)\] \[[video](https://www.bilibili.com/video/BV1Mm421G7g7/?spm_id_from=333.999.0.0&vd_source=e12da0e43dc3bff077377db7df00eccd)\] \[[webpage](https://lwruan.com/pubs/vortex-bubble)\] \[[DOI](https://dl.acm.org/doi/10.1145/3658165)\]
+\[[paper](http://taoningxiao.github.io/files/VortexBubble.pdf)\] \[[bilibili](https://www.bilibili.com/video/BV1Mm421G7g7/?spm_id_from=333.999.0.0&vd_source=e12da0e43dc3bff077377db7df00eccd)\] \[[youtube](https://www.youtube.com/watch?v=nOxEHghSE-U)\] \[[webpage](https://lwruan.com/pubs/vortex-bubble)\] \[[DOI](https://dl.acm.org/doi/10.1145/3658165)\]
