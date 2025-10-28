@@ -9,7 +9,7 @@ Computer Graphics Forum (Pacific Graphics 2025)
 
 **Ningxiao Tao**, Liru Zhang, Xingyu Ni, Mengyu Chu\*, Baoquan Chen\*
 
-\[[paper](http://taoningxiao.github.io/files/FlowCapX.pdf)\] \[[supp](https://drive.google.com/file/d/1uHLNTN8WykSIX1mvjvA-L-ZhOqdTKOsw/view?usp=share_link)\] \[[code](https://github.com/taoningxiao/FlowCapX.git)\] \[[DOI](https://doi.org/10.1111/cgf.70274)\]
+\[[paper](http://taoningxiao.github.io/files/FlowCapX.pdf)\] \[[arxiv](https://arxiv.org/abs/2510.23122)\] \[[supp](https://drive.google.com/file/d/1uHLNTN8WykSIX1mvjvA-L-ZhOqdTKOsw/view?usp=share_link)\] \[[code](https://github.com/taoningxiao/FlowCapX.git)\] \[[DOI](https://doi.org/10.1111/cgf.70274)\]
 
 </div></div>
 
