@@ -2,6 +2,19 @@
 
 *\* equal contribution; <sup>†</sup> corresponding author*
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Siggraph 2026</div><img src='images/LagrangianSplats-teaser.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**LagrangianSplats: Divergence-Free Transport of Gaussian Primitives for Fluid Reconstruction**
+
+SIGGRAPH 2026
+
+**Ningxiao Tao**, Baoquan Chen<sup>†</sup>, Mengyu Chu<sup>†</sup>
+
+\[[paper](http://taoningxiao.github.io/files/LagrangianSplats.pdf)\] \[[supp](https://drive.google.com/file/d/1tIE-u1iUoxtvsYSlITk23rTcN2kQwP-6/view?usp=drive_link)\] \[[code](https://github.com/taoningxiao/LagrangianSplats.git)\]
+
+</div></div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/FieryGS-teaser.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -11,7 +24,7 @@ International Conference on Learning Representations (ICLR 2026)
 
 Qianfan Shen\*, **Ningxiao Tao\***, Qiyu Dai\*, Tianle Chen, Minghan Qin, Yongjie Zhang, Mengyu Chu<sup>†</sup>, Wenzheng Chen<sup>†</sup>, Baoquan Chen<sup>†</sup>
 
-\[[paper](https://openreview.net/forum?id=ziKFH7whvy)\] \[[webpage](https://pku-vcl-geometry.github.io/FieryGS/)\]
+\[[paper](https://openreview.net/forum?id=ziKFH7whvy)\] \[[webpage](https://pku-vcl-geometry.github.io/FieryGS/)\] \[[code](https://github.com/PKU-VCL-Geometry/FieryGS.git)\]
 
 </div></div>
 
