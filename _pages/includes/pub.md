@@ -11,7 +11,7 @@ SIGGRAPH 2026
 
 **Ningxiao Tao**, Baoquan Chen<sup>†</sup>, Mengyu Chu<sup>†</sup>
 
-\[[paper](http://taoningxiao.github.io/files/LagrangianSplats.pdf)\] \[[supp](https://drive.google.com/file/d/1tIE-u1iUoxtvsYSlITk23rTcN2kQwP-6/view?usp=drive_link)\] \[[code](https://github.com/taoningxiao/LagrangianSplats.git)\]
+\[[paper](http://taoningxiao.github.io/files/LagrangianSplats.pdf)\] \[[arxiv](https://arxiv.org/abs/2605.09299)\] \[[supp](https://drive.google.com/file/d/1tIE-u1iUoxtvsYSlITk23rTcN2kQwP-6/view?usp=drive_link)\] \[[code](https://github.com/taoningxiao/LagrangianSplats.git)\] \[[dataset](https://huggingface.co/datasets/tnx123/LagrangianSplats-Dataset)\] \[[webpage](/lagrangiansplats/)\] \[[video](https://www.bilibili.com/video/BV1DLVM63ExF)\]
 
 </div></div>
 

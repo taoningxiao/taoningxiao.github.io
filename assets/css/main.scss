@@ -107,3 +107,180 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.project-page {
+    max-width: 1040px;
+    margin: 0 auto;
+    color: #171717;
+
+    h2 {
+        margin: 0 0 1rem;
+        border-bottom: 0;
+        font-size: 1.45rem;
+        text-align: center;
+    }
+
+    hr {
+        margin: 2.4rem auto;
+        border: 0;
+        border-top: 1px solid #dedede;
+        width: 100%;
+    }
+}
+
+.project-hero {
+    text-align: center;
+    padding: 1.4rem 0 0.6rem;
+
+    h1 {
+        max-width: 980px;
+        margin: 0 auto 0.9rem;
+        border-bottom: 0;
+        font-size: 2.45rem;
+        font-weight: 650;
+        line-height: 1.16;
+    }
+}
+
+.project-venue {
+    margin: 0.2rem 0 0.9rem;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.project-authors {
+    margin: 0 0 0.25rem;
+    color: #222;
+    font-size: 1.03rem;
+}
+
+.project-affiliation {
+    margin: 0.15rem 0;
+    color: #555;
+    font-size: 0.92rem;
+}
+
+.project-note {
+    margin: 0.15rem 0 0;
+    color: #666;
+    font-size: 0.82rem;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.85rem;
+    margin-top: 1.3rem;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 4.6rem;
+        height: 4.6rem;
+        color: #111;
+        background-color: #f2f2f2;
+        border: 1px solid #d9d9d9;
+        border-radius: 50%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 0.78rem;
+        font-weight: 600;
+        transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+
+        i {
+            margin-bottom: 0.25rem;
+            font-size: 1.25rem;
+        }
+
+        &:hover {
+            color: #fff;
+            background-color: #1c4d8f;
+            border-color: #1c4d8f;
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
+    }
+}
+
+.project-teaser {
+    margin: 2rem 0 0;
+    text-align: center;
+
+    img {
+        width: 100%;
+        max-width: 1040px;
+        height: auto;
+        border: 1px solid #e1e1e1;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    figcaption {
+        max-width: 880px;
+        margin: 0.8rem auto 0;
+        color: #555;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}
+
+.project-section {
+    max-width: 940px;
+    margin: 0 auto;
+
+    p {
+        line-height: 1.68;
+        text-align: justify;
+    }
+}
+
+.project-video {
+    max-width: 960px;
+}
+
+.project-video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: #000;
+    border: 1px solid #dedede;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+
+    iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.project-bibtex {
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #dedede;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 520px) {
+    .project-hero {
+        h1 {
+            font-size: 1.75rem;
+        }
+    }
+
+    .project-links {
+        gap: 0.55rem;
+
+        a {
+            width: 4rem;
+            height: 4rem;
+            font-size: 0.72rem;
+        }
+    }
+}
