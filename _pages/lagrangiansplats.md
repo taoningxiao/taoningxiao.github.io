@@ -3,6 +3,7 @@ permalink: /lagrangiansplats/
 title: "LagrangianSplats"
 excerpt: "Divergence-Free Transport of Gaussian Primitives for Fluid Reconstruction"
 author_profile: false
+full_width: true
 ---
 
 <div class="project-page">

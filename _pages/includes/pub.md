@@ -24,7 +24,7 @@ International Conference on Learning Representations (ICLR 2026)
 
 Qianfan Shen\*, **Ningxiao Tao\***, Qiyu Dai\*, Tianle Chen, Minghan Qin, Yongjie Zhang, Mengyu Chu<sup>†</sup>, Wenzheng Chen<sup>†</sup>, Baoquan Chen<sup>†</sup>
 
-\[[paper](https://openreview.net/forum?id=ziKFH7whvy)\] \[[webpage](https://pku-vcl-geometry.github.io/FieryGS/)\] \[[code](https://github.com/PKU-VCL-Geometry/FieryGS.git)\]
+\[[paper](https://openreview.net/forum?id=ziKFH7whvy)\] \[[arxiv](https://arxiv.org/abs/2605.00177)\] \[[webpage](https://pku-vcl-geometry.github.io/FieryGS/)\] \[[code](https://github.com/PKU-VCL-Geometry/FieryGS.git)\]
 
 </div></div>
 
